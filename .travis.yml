@@ -3,6 +3,8 @@ python:
   - "3.5"
 # command to install dependencies
 install: 
+  - ls
+  - ls src/main/resources/bash/setup_dev_env.bash
   - source src/main/resources/bash/setup_dev_env.bash
 # command to run tests
 script: nosetests
