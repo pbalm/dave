@@ -4,7 +4,7 @@ import plotly.graph_objs as go
 from datetime import datetime
 import pandas.io.data as web
 
-df = web.DataReader("aapl", 'yahoo',
+df= web.DataReader("aapl", 'yahoo',
                     datetime(2007, 10, 1),
                     datetime(2009, 4, 1))
 
