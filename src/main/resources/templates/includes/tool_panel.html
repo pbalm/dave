@@ -1,0 +1,16 @@
+<div class="toolPanel">
+  <div class="selectorsContainer">
+    <!---Selector are appended with JS here -->
+  </div>
+  <div class="buttonsContainer">
+    <button class="button btnClear">Restore</button>
+  </div>
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='scripts/html2canvas.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='scripts/canvas2image.js') }}"></script>
+
+<script type="text/javascript" src="{{ url_for('static', filename='scripts/fileSelector.js') }}?v={{ range (1, 9999) | random }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='scripts/sliderSelector.js') }}?v={{ range (1, 9999) | random }}"></script>
+
+<script type="text/javascript" src="{{ url_for('static', filename='scripts/toolpanel.js') }}?v={{ range (1, 9999) | random }}"></script>
